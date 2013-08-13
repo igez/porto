@@ -1,0 +1,59 @@
+body {
+  font-family: 'Open Sans', serif;
+}
+.wrapper {
+  padding: 20px 0;
+}
+#root {
+  position: relative;
+  top: 50%;
+  background: #e88b75;
+  text-align: center;
+}
+#root .intro {
+  padding: 20px 0;
+}
+#root .intro .mypic {
+  overflow: hidden;
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  height: 200px;
+  background: white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  border: 8px solid #fff;
+  margin-bottom: 20px;
+}
+#root .intro .myself {
+  color: white;
+}
+#root .intro .myself .introduction {
+  font-size: 40px;
+  font-family: 'Open Sans', serif;
+}
+#root .intro .myself .call-me-gez {
+  font-size: 35px;
+  font-family: 'Just Me Again Down Here', serif;
+}
+#who-am-i {
+  background: #222222;
+  color: #fff;
+}
+#who-am-i p {
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  margin: 0;
+}
+#who-am-i p span.web {
+  font-size: 35px;
+  font-family: 'Gochi Hand', serif;
+}
+#who-am-i p.from {
+  font-size: 18px;
+}
