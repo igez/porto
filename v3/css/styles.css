@@ -46,6 +46,9 @@ body {
 .nav li a:hover {
   background: #222;
 }
+.nav.logo {
+  background: red;
+}
 .wrapper {
   background: white;
   padding-top: 50px;
