@@ -1,96 +1,203 @@
+/**
+ *
+ *
+ *
+ *
+ * 
+ */
+body {
+  background: #white;
+  font-family: 'Titillium Web', sans-serif;
+}
+img {
+  width: 100%;
+}
 ul,
 li {
+  list-style: none;
   padding: 0;
   margin: 0;
 }
-html {
-  height: 100%;
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
 }
-body {
-  font-family: 'Open Sans', sans-serif;
-  color: #808080;
-  font-size: 12px;
-  background: #fff;
-  line-height: 1.6;
-}
-.row {
-  margin-top: 20px;
+header,
+div,
+footer {
+  -webkit-transition: all 0.4s ease-in-out, width 0, height 0, top 0, left 0;
+  -moz-transition: all 0.4s ease-in-out, width 0, height 0, top 0, left 0;
+  -o-transition: all 0.4s ease-in-out, width 0, height 0, top 0, left 0;
+  transition: all 0.4s ease-in-out, width 0, height 0, top 0, left 0;
 }
 header {
+  position: fixed;
+  z-index: 99999;
+  background: #222;
+  height: 72px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #febf0e;
   width: 100%;
-  line-height: 8px;
-  background: rgba(0, 36, 46, 0.8);
 }
-.logo {
-  float: left;
-  padding: 5px 20px;
+header .logo {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  letter-spacing: -4px;
+  font-size: 50px;
+  color: #ddd;
 }
-.navigation {
-  text-align: right;
+header .nav {
+  padding: 18px 0;
 }
-.navigation ul {
-  margin: 0;
-}
-.nav {
+header .nav ul li.mainmenu {
   display: inline-block;
 }
-.nav li {
-  height: 80px;
-  float: left;
-}
-.nav li.logo {
-  padding-top: 5px;
-}
-.nav li a {
+header .nav ul li.mainmenu a {
   text-transform: uppercase;
-  line-height: 80px;
-  font-size: 12px;
-  color: #fdfdfd;
-  padding: 0 10px;
+  color: white;
+  display: block;
+  padding: 8px 8px;
 }
-.nav li a:hover {
-  color: #222;
-  background: transparent;
+header .nav ul li.mainmenu a i {
+  position: relative;
+  left: 5px;
 }
-.nav.logo {
-  background: red;
+header .nav ul.submenu {
+  position: absolute;
+  top: 90px;
+  display: none;
 }
-.wrapper {
-  background: white;
-  padding-top: 50px;
+header .nav ul.submenu li a {
+  font-size: 13px;
+  background: #222;
+  width: 200px;
+  padding: 10px 10px;
+  opacity: 1;
 }
-section {
-  color: #222;
-  background: rgba(255, 255, 255, 0.8);
-  font-size: 14px;
-  padding-top: 20px;
+.line {
+  height: 1px;
+  width: 100%;
+  padding: 30px 0;
 }
-section#page {
-  background: url(../img/cream_pixels.png);
-}
-section h4 {
+.about p {
   font-size: 16px;
-  font-family: "Raleway", serif;
-  border-bottom: 1px solid #ddd;
+}
+section .project-row {
+  position: relative;
+  z-index: 9999;
+}
+.portofolio-single {
+  min-height: 500px;
+}
+.project-detail {
+  padding: 110px 0;
+}
+.project-detail h1 {
+  font-size: 26px;
+  line-height: 10px;
+  font-weight: 800;
+}
+.project-detail .work-detail h2 {
+  font-size: 16px;
+  border-bottom: 1px dashed #fff;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.project-detail .work-detail p {
+  text-align: justify;
+}
+.project-detail .work-detail ul li {
+  background: url("../img/arrow_right.png") no-repeat left;
+  padding-left: 20px;
+}
+.bg-1 {
+  position: absolute;
+  width: 100%;
+  height: 640px;
+  z-index: 9;
+  background: url(../img/noisy_grid.png);
+  opacity: .9;
+}
+section.color-0 {
+  background: #febf0e;
+  color: #222;
+  height: 100%;
+}
+section.color-1 {
+  background: url(../img/1809377-queen-villas-620X310.jpg) no-repeat fixed;
+  background-size: cover;
+  color: #fff;
+}
+section.color-2 {
+  background: url(../img/noots.jpg) no-repeat fixed;
+  background-size: cover;
+  color: #fff;
+}
+section.color-3 {
+  background: url(../img/sub.jpg) no-repeat fixed;
+  background-size: cover;
+  color: #fff;
+}
+section.color-4 {
+  background: url(../img/ab.jpg) no-repeat fixed;
+  background-size: cover;
+  color: #fff;
+}
+section.color-5 {
+  background: url(../img/asti.jpg) no-repeat fixed;
+  background-size: cover;
+  color: #fff;
+}
+section.color-6 {
+  background: url(../img/kromtekindo.jpg) no-repeat fixed;
+  background-size: cover;
+  background-position-x: 0px;
+  color: #fff;
+}
+.project-macbook {
+  text-align: center;
+}
+.project-desc h2 {
+  font-weight: bold;
+  letter-spacing: -2px;
+  border-bottom: 1px dotted #7E7C79;
   padding: 10px 0;
 }
-section .develop li p {
-  color: #888;
+.project-desc p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
 }
-section.tech-skill .row {
-  margin-top: 0;
+.project-desc .link-to-project {
+  padding: 10px 0;
 }
-section .chart {
-  padding-top: 40px;
+.project-desc .link-to-project i {
+  padding-left: 5px;
 }
-.hero-name {
-  margin-bottom: 50px;
-  padding: 10px 10px;
-  display: inline-block;
-  border-bottom: 1px solid #ddd;
-  font-weight: 100;
+a .btn {
+  color: #fff;
+}
+.btn-new {
+  border: 1px solid #fff;
+  color: #fff;
+}
+.btn-new.hover {
+  color: #222;
+  background: #fff;
 }
 footer {
-  padding-top: 100px;
-  height: 80px;
+  background: #222;
+  color: white;
+  padding: 10px 0;
+}
+footer p {
+  text-transform: uppercase;
+  line-height: 10px;
+  padding: 10px 0;
+  margin: 0;
+  text-align: center;
+}
+.transparent {
+  opacity: 0;
 }
