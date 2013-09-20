@@ -13,7 +13,9 @@
 	<link rel="stylesheet" href="<?=bloginfo('stylesheet_url');?>">
 	
 </head>
-<body style="display: none;">
+<body>
+	<div class="loader-dots"></div>
+	<div class="content">
 	<header>
 		<div class="container">
 			<div class="row">

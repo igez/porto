@@ -3,6 +3,7 @@
 			<p>&copy 2013 RobbyPrima.com. All Rights Reserved.</p>
 		</div>
 	</footer>
+	</div>
 	<script src="<?=bloginfo('template_url');?>/assets/js/jquery.min.js"></script>
 	<script src="<?=bloginfo('template_url');?>/assets/js/stellar.min.js"></script>
 	<script src="<?=bloginfo('template_url');?>/assets/js/jquery.scrollTo.js"></script>
