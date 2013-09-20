@@ -1,15 +1,4 @@
 <?php get_header(); ?>
-	<section class="welcome-hero">
-		<div class="container project-row">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="front-big">
-						<?=get_post('23')->post_content;?>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 	<?php 
 		global $query_string;
 		query_posts($query_string . '&orderby=modified');
