@@ -20,7 +20,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4">
-					<div class="logo">ROBBYPRIMA.</div>
+					<div class="logo"><a href="/">ROBBYPRIMA.</a></div>
 				</div>
 				<div class="col-lg-8">
 					<div class="row">

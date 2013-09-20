@@ -51,6 +51,9 @@ header .logo {
   font-size: 50px;
   color: #ddd;
 }
+header .logo a {
+  color: #fff;
+}
 header .nav {
   padding: 18px 0;
 }

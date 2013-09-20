@@ -1,3 +1,8 @@
+$('body').click(function(e) {
+	console.log(e.clientX +' - '+e.clientY);
+	console.log($(this).offset().top)
+});
+
 $(window).load(function() {
 	$('.loader').fadeOut(500,function() {
 		$('.stage').animate({
@@ -6,9 +11,6 @@ $(window).load(function() {
 	});
 })
 $(document).ready(function(){
-	
-
-
 	var chrome = /chrom(e|ium)/.test(navigator.userAgent.toLowerCase());
 	if(chrome){
 		$.each($("section"), function(e,v) {

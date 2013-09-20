@@ -14,6 +14,7 @@
 			global $query_string;
 			query_posts($query_string . '&orderby=modified');
 		?>
+		<?php query_posts('cat=2'); ?>
 		<?php if($wp_query->posts) : ?>
 			<?php foreach($wp_query->posts as $post) : ?>
 				<section data-stellar-background-ratio="0.2" data-stellar-offset-parent="true" data-stellar-vertical-offset="-180" data-target="<?=the_slug();?>" style="background: url(<?=bloginfo('template_url');?>/assets/img/<?=custom_field('project_bg', $post->ID);?>) no-repeat fixed; background-size: cover;" class="works">
