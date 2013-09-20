@@ -105,6 +105,9 @@ $(function() {
 
 
 $(window).scroll(function() {
+	var $this = $(this);
+	clearTimeout($.data(this, 'scrollTimer'));
+    
 	$('.portofolio-single:above-the-top').each(function() {
 		$(this).find('.project-macbook').addClass('hide');
 		$(this).find('.project-desc').addClass('hide');
@@ -124,5 +127,13 @@ $(window).scroll(function() {
 	$('.portofolio-single:in-viewport').each(function() {
 		$(this).find('.project-macbook').removeClass('hide');
 		$(this).find('.project-desc').removeClass('hide');
-	})
+		console.log('a');
+	});
 });
+
+function idleScroll (delay, value) {
+	setTimeout(function() {
+		$(window).scrollTop(value);
+	},delay);
+	return false;
+}
