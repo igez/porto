@@ -1,0 +1,72 @@
+@import 'prefixr.less';
+
+@font-1 : 'Open Sans';
+@font-2 : 'Maven Pro';
+@font-3 : 'Just Me Again Down Here';
+@font-4 : 'Gochi Hand';
+
+// Colors
+@color-1 	: #E88B75;
+@color-2 	: #222;
+
+body {
+	font-family: @font-1, serif;
+}
+
+.wrapper {
+	padding: 20px 0;
+}
+
+#root {
+	position: relative;
+	top: 50%;
+	background: @color-1 ;
+	text-align:center;
+
+	.intro {
+		padding: 20px 0;
+		.mypic {
+			overflow: hidden;
+			margin:0 auto;
+			display: block;
+			width:200px;
+			height:200px;
+			background: white;
+			.border-radius(50%);
+			border: 8px solid #fff;
+			margin-bottom: 20px;
+		}
+
+		.myself {
+			color: white;
+			.introduction {
+				font-size: 40px;
+				font-family: @font-1, serif;
+			}
+
+			.call-me-gez {
+				font-size: 35px;
+				font-family: @font-3, serif;
+			}
+		}
+	}	
+}
+
+#who-am-i {
+	background: @color-2;
+	color: #fff;
+	p {
+		font-size: 20px;
+		text-align: center;
+		line-height: 40px;
+		margin: 0;
+		span.web {
+			font-size: 35px;
+			font-family: @font-4, serif;
+		}
+
+		&.from {
+			font-size:18px;
+		}
+	}
+}

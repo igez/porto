@@ -1,0 +1,32 @@
+{
+	"folders": [
+   	{
+     		"folder_exclude_patterns": [
+		      "wp-includes", 
+		      "wp-admin",
+		      "wp-content/plugins",
+		      "wp-content/uploads"
+     		], 
+     		"path": "D:/_Projects/portofolio",
+     			"file_exclude_patterns": [
+			      "wp-app.php",
+			      "wp-blog-header.php",
+			      "wp-activate.php",
+			      "wp-comments-post.php",
+			      "wp-cron.php",
+			      "wp-links-opml.php",
+			      "wp-load.php",
+			      "wp-login.php",
+			      "wp-mail.php",
+			      "wp-pass.php",
+			      "wp-register.php",
+			      "wp-settings.php",
+			      "wp-signup.php",
+			      "wp-trackback.php",
+			      "xmlrpc.php",
+			      "license.txt",
+			      "readme.html"
+   			]
+   	}
+   ]
+}

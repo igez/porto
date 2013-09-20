@@ -1,0 +1,1302 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pro",
+				"project-single"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"data",
+				"data-title"
+			],
+			[
+				"projec",
+				"project-row"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"proj",
+				"project-row"
+			],
+			[
+				"project-de",
+				"project-detail"
+			],
+			[
+				"proje",
+				"project-desc"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"kate",
+				"kategori_model"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"_POST",
+				"_POST"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"root",
+				"root"
+			],
+			[
+				"jara",
+				"jarak"
+			],
+			[
+				"Des",
+				"destination"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"for",
+				"foreach"
+			],
+			[
+				"hasil",
+				"hasil_angkot"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"kategori",
+				"kategori_model"
+			],
+			[
+				"set",
+				"set_flashdata	CI - Set flashdata"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"tar",
+				"tarif_awal"
+			],
+			[
+				"ru",
+				"rutes"
+			],
+			[
+				"as",
+				"aserialize"
+			],
+			[
+				"tota",
+				"totalize"
+			],
+			[
+				"jarak",
+				"jarak-tot"
+			],
+			[
+				"desti",
+				"destinations"
+			],
+			[
+				"a",
+				"arrow-turun"
+			],
+			[
+				"res",
+				"result_json"
+			],
+			[
+				"ar",
+				"arr_dest"
+			],
+			[
+				"has",
+				"hasil_angkot"
+			],
+			[
+				"rute",
+				"rute_angkot"
+			],
+			[
+				"tempat",
+				"tempat_awal"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"backc",
+				"background-clip"
+			],
+			[
+				"mysqlfe",
+				"mysql_fetch_assoc"
+			],
+			[
+				"item",
+				"item-body"
+			],
+			[
+				"_GET",
+				"_GET"
+			],
+			[
+				"mysql_fetcha",
+				"mysql_fetch_assoc"
+			],
+			[
+				"word",
+				"workorder"
+			],
+			[
+				"input",
+				"input-qty"
+			],
+			[
+				"wor",
+				"workorder"
+			],
+			[
+				"qty",
+				"qty_awal"
+			],
+			[
+				"de",
+				"detail_jenis"
+			],
+			[
+				"jenis",
+				"jenis_service"
+			],
+			[
+				"modal",
+				"modal-print"
+			],
+			[
+				"mysql_feta",
+				"mysql_fetch_assoc"
+			],
+			[
+				"pelang",
+				"pelanggan_id"
+			],
+			[
+				"terima",
+				"get_nota_terima_service"
+			],
+			[
+				"detail",
+				"detail_sp"
+			],
+			[
+				"to",
+				"total_harga"
+			],
+			[
+				"sp",
+				"sp_tot"
+			],
+			[
+				"total_",
+				"total_sp"
+			],
+			[
+				"total",
+				"total_harga"
+			],
+			[
+				"subtotal",
+				"subtotal_jns"
+			],
+			[
+				"type",
+				"typeahead"
+			],
+			[
+				"pili",
+				"pilih_nota"
+			],
+			[
+				"mysql_fetch",
+				"mysql_fetch_assoc"
+			],
+			[
+				"str_rep",
+				"str_replace"
+			],
+			[
+				"nama",
+				"nama_jns_service"
+			],
+			[
+				"modal-",
+				"modal-body"
+			],
+			[
+				"fetch",
+				"fetchNTS"
+			],
+			[
+				"mysql_que",
+				"mysql_query"
+			],
+			[
+				"mysql_fe",
+				"mysql_fetch_row"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"sav",
+				"save-retur"
+			],
+			[
+				"retur",
+				"retur-items"
+			],
+			[
+				"get",
+				"getUrl"
+			],
+			[
+				"nota",
+				"nota_id"
+			],
+			[
+				"mysql_num",
+				"mysql_num_rows"
+			],
+			[
+				"mysql",
+				"mysql_query"
+			],
+			[
+				"pe",
+				"pelanggan_id"
+			],
+			[
+				"harga",
+				"harga_sp"
+			],
+			[
+				"q",
+				"qty"
+			],
+			[
+				"kode_p",
+				"kode_sparepart"
+			],
+			[
+				"no",
+				"nonota"
+			],
+			[
+				"form",
+				"form-error"
+			],
+			[
+				"mysql_fet",
+				"mysql_fetch_assoc"
+			],
+			[
+				"id",
+				"idpel"
+			],
+			[
+				"gene",
+				"generate_nim"
+			],
+			[
+				"Maha",
+				"Mahasiswa_abstract"
+			],
+			[
+				"g",
+				"groups"
+			],
+			[
+				"invi",
+				"invitation_code"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"selec",
+				"selected"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"defaul",
+				"date_default_timezone_set"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"drawer",
+				"drawer-change"
+			],
+			[
+				"parse",
+				"parseJSON"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"load_",
+				"load_model	CI - Load Model"
+			],
+			[
+				"load",
+				"load_library	CI - Load Library"
+			],
+			[
+				"apped",
+				"appendTo"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"_",
+				"_formatFileSize"
+			],
+			[
+				"select",
+				"selectFiles"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"slid",
+				"slideUp"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"login-",
+				"login-status"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"login",
+				"login-form"
+			],
+			[
+				"generate",
+				"generate_unique"
+			],
+			[
+				"generat",
+				"generate_url"
+			],
+			[
+				"sett",
+				"setting_model"
+			],
+			[
+				"btn",
+				"btn-success"
+			],
+			[
+				"append",
+				"appendTo"
+			],
+			[
+				"li",
+				"list-upload"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wp-content/themes/robbiejobs/style.css",
+			"settings":
+			{
+				"buffer_size": 167,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 380.0,
+		"selected_items":
+		[
+			[
+				"fet",
+				"Fetch: Package"
+			],
+			[
+				"ci",
+				"Snippet: CI - Base Controller"
+			],
+			[
+				"fe",
+				"Fetch: File"
+			],
+			[
+				"fetch",
+				"Fetch: Package"
+			],
+			[
+				"model",
+				"Snippet: CI - Base Model"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"git",
+				"Gist: Create Public Gist"
+			],
+			[
+				"gi",
+				"Gist: Open Gist"
+			],
+			[
+				"gos",
+				"Gist: Open Gist"
+			],
+			[
+				"contro",
+				"Snippet: CI - Base Controller"
+			],
+			[
+				"cont",
+				"Snippet: CI - Base Controller"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"linkrel",
+				"Snippet: linkrel"
+			],
+			[
+				"fetc",
+				"Fetch: Manage"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"feth",
+				"Fetch: Manage"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"autopre",
+				"Autoprefix CSS"
+			],
+			[
+				"pref",
+				"Autoprefix CSS"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"doc",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"controller",
+				"Snippet: CI - Base Controller"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"controll",
+				"Snippet: CI - Base Controller"
+			],
+			[
+				"laravel",
+				"Laravel Generate: View"
+			],
+			[
+				"libra",
+				"Snippet: CI - New Library"
+			],
+			[
+				"class",
+				"Snippet: CI - Generic Starter Class"
+			],
+			[
+				"Snippet: printpre",
+				"Snippet: printpre"
+			],
+			[
+				"sett php",
+				"Set Syntax: PHP"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"new do",
+				"Tasks: New document"
+			],
+			[
+				"Snippet: fun",
+				"Snippet: function …"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"intal",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ht",
+				"HTTP Requester"
+			],
+			[
+				"taks",
+				"Tasks: New document"
+			],
+			[
+				"createp",
+				"Gist: Create Public Gist"
+			],
+			[
+				"gits",
+				"Gist: Add File to Gist"
+			],
+			[
+				"codeig",
+				"Snippet: CI - Assign the CodeIgniter object to a variable"
+			],
+			[
+				"packge",
+				"Package Control: Install Package"
+			],
+			[
+				"jq",
+				"Snippet: jQuery AJAX call"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Robby Prima/AppData/Roaming/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/D/_Projects/portofolio/js/custom.js",
+		"/D/_Projects/portofolio/v4/js/jquery.transition.min.js",
+		"/D/_Projects/portofolio/v4/css/animate.css",
+		"/C/Users/Robby Prima/Downloads/animate-custom.css",
+		"/D/_Projects/portofolio/v4/less/color-scheme.less",
+		"/D/_Projects/portofolio/v4/index.html.bk",
+		"/D/_Projects/portofolio/v4/index.html",
+		"/D/_Projects/portofolio/v4/js/jquery.viewport.min.js",
+		"/D/_Projects/portofolio/v4/js/jquery.visible.min.js",
+		"/D/_Projects/portofolio/v4/js/jquery.scrollTo.js",
+		"/D/_Projects/portofolio/v4/css/animate.nss",
+		"/D/_Projects/slideshare/application/views/detail.php",
+		"/D/_Projects/slideshare/application/views/Static/sidebar.php",
+		"/D/_Projects/slideshare/application/views/static/sidebarr.php",
+		"/D/_Projects/slideshare/application/views/home.php",
+		"/D/_Projects/slideshare/.gitignore",
+		"/D/_Projects/slideshare/css/style.css",
+		"/D/_Projects/slideshare/application/models/materi_model.php",
+		"/D/_Projects/slideshare/.htaccess",
+		"/D/_Projects/slideshare/js/flexpaper.js",
+		"/D/_Projects/logologo/materi.html",
+		"/D/_Projects/slideshare/php/lib/pdf2swf_php5.php",
+		"/D/Downloads/Temp/Rar$DIa0.764/Binary.php",
+		"/D/Downloads/Temp/Rar$DIa0.998/Pdf2swf.php",
+		"/D/_Projects/logologo/index.html",
+		"/D/_Projects/slideshare/application/controllers/admin_materi.php",
+		"/D/_Projects/slideshare/application/views/Admin/Materi/add.php",
+		"/D/_Projects/slideshare/application/controllers/home.php",
+		"/D/_Projects/logo/index.html",
+		"/D/_Projects/slideshare/application/config/routes.php",
+		"/D/_Projects/slideshare/css/style2.css",
+		"/D/_Projects/portofolio/v4/less/styles.less",
+		"/D/Downloads/Temp/Rar$DIa0.311/pdfobject_source.js",
+		"/D/_Projects/portofolio/v4/js/stellar.min.js",
+		"/D/_Projects/slideshare/application/controllers/materi.php",
+		"/D/_Projects/slideshare/application/views/Admin/layout.php",
+		"/D/_Projects/slideshare/application/views/template.php",
+		"/D/_Projects/slideshare/application/controllers/kategori.php",
+		"/D/_Projects/bf/application/config/database.php",
+		"/D/_Projects/ewok/app/Controller/DestinationController.php",
+		"/D/_Projects/ewok/app/View/Destination/calcroute.ctp",
+		"/D/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Robby Prima/AppData/Local/Temp/fz3temp-1/calcroute.ctp",
+		"/D/_Projects/ewok/app/View/Destination/calcroute.bkbaru",
+		"/D/_Projects/ewok/app/View/Destination/calcroute.ctp2",
+		"/D/TOOLS/Injekan.pdb",
+		"/D/_Projects/ewok/app/Controller/HomeController.php",
+		"/C/Users/Robby Prima/AppData/Local/Temp/fz3temp-1/landing.css",
+		"/C/Users/Robby Prima/Desktop/calcroute.ctp",
+		"/D/_Projects/ewok/app/View/Destination/calcroute1.ctp",
+		"/C/Users/Robby Prima/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/D/_Projects/portofolio/v2/html/less/font-awesome.less",
+		"/D/_Projects/portofolio/v2/html/less/main.less",
+		"/D/_Projects/portofolio/v2/html/index.html",
+		"/D/_Projects/portofolio/v2/html/less/prefixr.less",
+		"/D/Web Dev Tools/Templates/TF/Admin Template/Shamcey/bootstrap.html",
+		"/D/_Projects/slideshare/application/views/login.php",
+		"/D/_Projects/slideshare/application/views/Admin/Materi/index.php",
+		"/D/_Projects/slideshare/application/libraries/Uploader.php",
+		"/C/Users/Robby Prima/AppData/Roaming/Sublime Text 2/Packages/Gist/Gist.sublime-settings",
+		"/C/Users/Robby Prima/AppData/Roaming/Sublime Text 2/Packages/User/Gist.sublime-settings",
+		"/D/_Projects/slideshare/css/style.default.css",
+		"/D/_Projects/slideshare/js/app.js",
+		"/D/_Projects/slideshare/application/views/maintenance.php",
+		"/D/_Projects/slideshare/application/views/Admin/Setting/general.php",
+		"/D/_Projects/slideshare/application/controllers/setting.php",
+		"/D/_Projects/slideshare/application/controllers/api.php",
+		"/D/_Projects/slideshare/application/models/kategori_model.php",
+		"/D/_Projects/slideshare/application/views/Admin/Kategori/index.php",
+		"/D/_Projects/slideshare/application/views/Admin/Kategori/add.php",
+		"/D/_Projects/slideshare/application/models/kategori.php",
+		"/D/_Projects/slideshare/application/views/Admin/dashboard.php",
+		"/D/_Projects/slideshare/application/controllers/admin.php",
+		"/D/_Projects/slideshare/index.php",
+		"/D/_Projects/slideshare/js/jquery.tagsinput.min.js",
+		"/D/_Projects/slideshare/application/views/Admin/dashboard",
+		"/D/_Projects/slideshare/application/controllers/welcome.php",
+		"/D/_Projects/slideshare/application/controllers/user.php",
+		"/D/_Projects/slideshare/application/controllers/migrate.php",
+		"/D/_Projects/slideshare/application/migrations/002_create_table_kategori.php",
+		"/D/_Projects/slideshare/application/config/migration.php",
+		"/D/_Projects/slideshare/setup/install.php",
+		"/D/_Projects/slideshare/application/config/database2.php",
+		"/D/_Projects/slideshare/application/config/database.php",
+		"/D/_Projects/slideshare/setup/index.php",
+		"/D/_Projects/slideshare/setup/libs/database.php",
+		"/D/_Projects/slideshare/setup/class_database.php",
+		"/D/_Projects/slideshare/application/migrations/001_create_table_kategori.php",
+		"/D/Web Dev Tools/Templates/TF/Admin Template/Shamcey/index.html",
+		"/D/_Projects/slideshare/application/views/login.ph",
+		"/D/_Projects/slideshare/application/config/autoload.php",
+		"/D/Web Dev Tools/Templates/TF/Admin Template/Shamcey/dashboard.html",
+		"/D/_Projects/slideshare/application/views/Admin/login.php",
+		"/D/_Projects/slideshare/application/config/config.php",
+		"/D/Web Dev Tools/Templates/TF/Admin Template/Shamcey/css/style.default.css",
+		"/D/_Projects/envato/loot/v1/less/styles.less",
+		"/D/_Projects/envato/loot/v1/html/js/app.js",
+		"/D/_Projects/envato/loot/v1/html/index.html",
+		"/D/_Projects/envato/loot/v1/less/icons.less",
+		"/D/_Projects/envato/loot/v1/less/vars.less",
+		"/D/_Projects/envato/loot/v1/html/css/font-awesome.css",
+		"/D/_Projects/envato/loot/v1/less/path.less",
+		"/D/Downloads/Temp/Rar$DIa0.414/path.less",
+		"/D/Downloads/Temp/Rar$DIa0.574/icons.less",
+		"/D/Downloads/Temp/Rar$DIa0.472/variables.less",
+		"/D/_Projects/envato/loot/v1/html/css/styles.css",
+		"/D/Web Dev Tools/Terrion Submission 2/Site Files/HTML Version/index.html",
+		"/D/_Projects/envato/loot/v2/development/less/style.less",
+		"/D/_Projects/envato/loot/v2/html/css/style.css",
+		"/D/_Projects/envato/loot/v2/development/less/color.less",
+		"/D/_Projects/envato/loot/v2/development/less/type.less",
+		"/D/_Projects/envato/loot/v2/index.html",
+		"/D/_Projects/envato/loot/v2/js/jquery.min.js",
+		"/D/_Projects/envato/vee/html/index.html",
+		"/D/_Projects/envato/vee/html/index-2.php",
+		"/D/_Projects/ewok/app/View/Destination/view.ctp",
+		"/D/_Projects/ewok/app/View/Destination/category.ctp",
+		"/D/_Projects/ewok/app/Model/Awal.php",
+		"/D/_Projects/ewok/index.php",
+		"/D/_Projects/ewok/app/Config/database.php",
+		"/D/xampp/apache/conf/httpd.conf",
+		"/D/_Projects/envato/vee/credit.txt",
+		"/D/_Projects/envato/vee/development/less/prefixr.less",
+		"/D/_Projects/envato/vee/html/css/style.css",
+		"/D/_Projects/envato/vee/html/css/bootstrap.css",
+		"/D/_Projects/envato/vee/development/less/style.less"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"0.5s",
+			"background-pos",
+			"background",
+			"nootsjea",
+			"console",
+			"noots",
+			"aw",
+			"btn-default",
+			"viewer",
+			"/img/",
+			"assets",
+			"assets/",
+			"/img/",
+			"img",
+			"assets",
+			"assets/",
+			"data-stellar-background-ratio=\"0.2\"",
+			"data-stellar-background-ratio=\"0\">",
+			"data-stellar-background-ratio=\"0.5\">",
+			"section",
+			"../img",
+			"assets",
+			"assets/img",
+			"angkot",
+			"jarak",
+			"hasil",
+			"map",
+			"Fetching...",
+			"Fething...",
+			"debug",
+			"angkot",
+			"css/",
+			"js/",
+			"images/",
+			"css/",
+			"js/",
+			"/js/",
+			"1170",
+			"debug",
+			"sear",
+			"loading",
+			"subscribe",
+			"contact-right",
+			"contact",
+			"60",
+			"@media",
+			"btn",
+			"wrapper",
+			"stackBlurImage",
+			"stackBlurCanvasRGB",
+			"map",
+			"12",
+			"icon",
+			"1170",
+			"pahe",
+			"sp",
+			"service",
+			"print",
+			"sp",
+			"bayar",
+			"sprin",
+			"tgl",
+			"tanggal",
+			"api-ur",
+			"no_nota",
+			"206",
+			"data-target",
+			"submenu",
+			"submenutr",
+			"barangadd",
+			"parseInt($(\"#harga_jual\"+curr_jml).val())",
+			"barangadd",
+			"idsp",
+			"modal",
+			"idpel",
+			"hasElement",
+			"total",
+			"$data",
+			"bac",
+			"text",
+			"'';\n",
+			"ewe123",
+			"item",
+			"brand",
+			"user",
+			"\"\n",
+			"test",
+			"put",
+			"nav",
+			"console",
+			"uCont",
+			"setting",
+			"progress",
+			"bar",
+			"progress",
+			"background",
+			"page",
+			"counter",
+			"aw",
+			"index",
+			"provided",
+			"section",
+			"guest",
+			"md5",
+			"multipart",
+			"Chi",
+			"'%comspec% /c mkdir ' + ACTIVITY_DIR",
+			"ACTIVITY_PATH",
+			"'",
+			"progress",
+			" ",
+			"mail",
+			"var_dump",
+			"smtp",
+			"”",
+			"“",
+			"hover",
+			"alt+shift",
+			"alt",
+			"ctrl"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"0.8s",
+			"btn-new",
+			"/images/",
+			"",
+			"/images/",
+			"images",
+			"",
+			"data-stellar-background-ratio=\"0\"",
+			"data-stellar-background-ratio=\"0\">",
+			"data-stellar-background-ratio=\"0.2\">",
+			"data-stellar-background-ratio=\"0\">",
+			"../images",
+			"",
+			"/images",
+			"NaN",
+			"/css/",
+			"/js/",
+			"/images/",
+			"/css/",
+			"/js/",
+			"submenupj",
+			"parseInt($('input[name=\"item['+curr_jml+'][harga_jual]\"]').val())",
+			"$this->data",
+			"\"",
+			":",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wp-content/themes/robbiejobs/style.css",
+					"settings":
+					{
+						"buffer_size": 167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 253.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"style",
+				"assets/css/style.css"
+			],
+			[
+				"index",
+				"application/views/index.php"
+			],
+			[
+				"boot",
+				"assets/css/bootstrap.css"
+			],
+			[
+				"autoload",
+				"application/config/autoload.php"
+			],
+			[
+				"route",
+				"application/config/routes.php"
+			],
+			[
+				"emails",
+				"assets/email_templates/forgot_password.html"
+			],
+			[
+				"js",
+				"assets/js/scripts.js"
+			],
+			[
+				"con",
+				"application/config/config.php"
+			],
+			[
+				"s",
+				"css/style.css"
+			],
+			[
+				"ind",
+				"index.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true
+}
