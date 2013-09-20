@@ -1,5 +1,9 @@
 $(window).load(function() {
-	$('.content').fadeIn(2000);
+	$('.loader').fadeOut(500,function() {
+		$('.stage').animate({
+			opacity: '1'
+		},500);
+	});
 })
 $(document).ready(function(){
 	

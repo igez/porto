@@ -15,7 +15,7 @@
 </head>
 <body>
 	<i class="loader"></i>
-	<div class="content">
+	<div class="stage">
 	<header>
 		<div class="container">
 			<div class="row">
