@@ -258,62 +258,49 @@ footer {
 	opacity: 0;
 }
 
-.loader-dots {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+@font-size:2;
+.loader {
+  height:2em;
+  width:2em;
+  border-radius:100%;
+  background:#febf0e;
+  display:block;
+  margin:10em auto;
+  position:absolute;
+  top:50%;
+  left:50%;
+  animation:spin 2s ease infinite;
+  -webkit-animation:spin 2s ease infinite;
+  &:before, &:after{
+    content:'';
+    display:block;
+    position:absolute;
+    height:inherit;
+    width:inherit;
+    background:inherit;
+    border-radius:inherit;
+    animation:spin 2s ease infinite;
+    -webkit-animation:spin 2s ease infinite;
+  }
+  &:before{
+    left:-(@font-size*1.15)*1em;
+  }
+  &:after{
+    left:(@font-size*1.15)*1em;  
+  }
 }
 
-.loader-dots:before, .loader-dots:after {
-  height: 20px;
-  width: 45px;
-  background-image: radial-gradient(closest-side, #111 100%, transparent), radial-gradient(closest-side, #111 100%, transparent);
-  background-position: 0%, 100%;
-  background-size: 20px 20px, 20px 20px;
-  background-repeat: no-repeat;
-  position: absolute;
-  animation-duration: 0.8s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-name: spin, onOff;
-  content: '';
-}
-
-.loader-dots:before {
-  animation-direction: normal, reverse;
-}
-.loader-dots:after {
-  right: 0px;
-  animation-direction: reverse, normal;
-}
-
-.loader-dots {
-  height: 20px;
-  width: 70px;
-  background-image: radial-gradient(closest-side, #111 100%, transparent), radial-gradient(closest-side, #111 100%, transparent);
-  background-position: 0%, 100%;
-  background-size: 20px 20px, 20px 20px;
-  background-repeat: no-repeat;
-  position: absolute;
-  animation: toggle 0.8s ease-in-out infinite;
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg)   }
-   50% { transform: rotate(180deg) }
-  100% { transform: rotate(180deg) }
-}
-
-@keyframes onOff {
-    0% { opacity: 0; }
-   49% { opacity: 0; }
-   50% { opacity: 1; }
-  100% { opacity: 1; }
-}
-
-@keyframes toggle {
-  0%    { background-size: 0px 0px, 20px 20px }
-  49.9% { background-size: 0px 0px, 20px 20px }
-  50%   { background-size: 20px 20px, 0px 0px }
-  100%  { background-size: 20px 20px, 0px 0px }
+@keyframes spin{
+  0%{
+    top:0;
+    transform:rotate(0deg);
+  }
+  50%{
+    top:-(@font-size*4)*1em;
+    transform:rotate(-180deg);
+  }
+  100%{
+    top:0;
+    transform:rotate(-360deg);
+  }
 }

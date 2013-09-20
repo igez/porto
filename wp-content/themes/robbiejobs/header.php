@@ -14,7 +14,7 @@
 	
 </head>
 <body>
-	<div class="loader-dots"></div>
+	<i class="loader"></i>
 	<div class="content">
 	<header>
 		<div class="container">
