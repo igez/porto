@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="<?=bloginfo('stylesheet_url');?>">
 	
 </head>
-<body style="display: block;">
+<body style="display: none;">
 	<header>
 		<div class="container">
 			<div class="row">
