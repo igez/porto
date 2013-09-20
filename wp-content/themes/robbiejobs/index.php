@@ -59,22 +59,21 @@
 	?>
 	<?php if($wp_query->posts) : ?>
 		<?php foreach($wp_query->posts as $post) : ?>
-
-			<section data-stellar-background-ratio="0.2" data-stellar-offset-parent="true" data-stellar-vertical-offset="-180" data-target="<?=the_slug();?>" style="background: url(<?=bloginfo('template_url');?>/assets/img/<?=get_post_custom_values('project_bg', $post->ID)[0];?>) no-repeat fixed; background-size: cover;" class="works">
+			<section data-stellar-background-ratio="0.2" data-stellar-offset-parent="true" data-stellar-vertical-offset="-180" data-target="<?=the_slug();?>" style="background: url(<?=bloginfo('template_url');?>/assets/img/<?=custom_field('project_bg', $post->ID);?>) no-repeat fixed; background-size: cover;" class="works">
 				<div class="bg-1"></div>
 				<div class="project-row" data-title="<?=the_slug();?>">
 					<div class="portofolio-single pull-left">
 						<div class="container">
 							<div class="project-desc col-lg-4 transparent animated fadeInLeft" id="animate">
 								<h2 class="project-name"><?=$post->post_title;?></h2>
-								<?=get_post_custom_values('project_detail', $post->ID)[0]; ?>
+								<?=custom_field('project_detail', $post->ID); ?>
 								<div class="link-to-project">
-									<a href="http://<?=get_post_custom_values('project_url', $post->ID)[0]; ?>" class="btn btn-new" target="_blank">View Site <i class="icon-long-arrow-right"></i></a>
+									<a href="http://<?=custom_field('project_url', $post->ID); ?>" class="btn btn-new" target="_blank">View Site <i class="icon-long-arrow-right"></i></a>
 									<a href="#" id="view-proj" data-section="<?=the_slug();?>" class="btn btn-new">View Project <i class="icon-long-arrow-right"></i></a>
 								</div>
 							</div>
 							<div class="project-macbook col-lg-8 hide animated fadeInRight" id="animate">
-								<img src="<?=bloginfo('template_url');?>/assets/img/<?=get_post_custom_values('project_mockup', $post->ID)[0]; ?> " alt="">
+								<img src="<?=bloginfo('template_url');?>/assets/img/<?=custom_field('project_mockup', $post->ID); ?> " alt="">
 							</div>
 						</div>
 					</div>
@@ -83,7 +82,7 @@
 							<div class="row">
 								<div class="col-lg-12">
 									<h1 class="project-name text-center"><?=$post->post_title;?></h1>
-									<p class="text-center"><?=get_post_custom_values('project_url', $post->ID)[0]; ?></p>
+									<p class="text-center"><?=custom_field('project_url', $post->ID); ?></p>
 								</div>
 							</div>
 							<div class="row">
@@ -100,7 +99,7 @@
 											
 								</div>
 								<div class="col-lg-9 text-center">
-									<img src="<?=bloginfo('template_url');?>/assets/img/<?=get_post_custom_values('project_showcase', $post->ID)[0]; ?> " alt="<?=$post->title;?>">
+									<img src="<?=bloginfo('template_url');?>/assets/img/<?=custom_field('project_showcase', $post->ID); ?> " alt="<?=$post->title;?>">
 								</div>
 							</div>
 							
