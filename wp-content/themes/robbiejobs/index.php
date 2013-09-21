@@ -10,6 +10,69 @@
 				</div>
 			</div>
 		</section>
+		<article class="about" style="background:#ddd;">
+			<div class="container">
+				<div class="row">
+					<div class="contact-page col-lg-12">
+						<h1 class="article-title">About</h1>
+						<p class="title-separator">/</p>
+						<p class="about-img">
+							<img src="<?=bloginfo('template_url');?>/assets/img/gez.jpg" alt="..." class="img-circle" height="140" width="140" style="width: auto;">
+						</p>
+						<h2>Robby Prima</h2>
+						<p>Front-End Web Developer & UX Designer</p>
+						<p>Bandung, Indonesia</p>
+					</div>
+				</div>
+			</div>
+				
+		</article>
+		<article>
+			<div class="container">
+				<div class="row">
+					<div class="contact-page col-lg-12">
+						<h1>Services</h1>
+						<p class="title-separator">/</p>
+						<p>My vision is simple. I want to create websites and applications with both high quality design and easy-to-access content.</p><p>The finished product will be totally unique and represent awesomeness.</p>
+						<div class="row service-list" style="padding: 20px 0">
+							<div class="col-lg-4">
+								<i class="icon-code icon-4x"></i>
+								<h4>Reusable Code</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ducimus consectetur voluptates aperiam amet ullam nobis labore voluptas iste assumenda illum quibusdam magni modi dolores molestiae animi fugiat voluptatum iusto.</p>
+							</div>
+							<div class="col-lg-4">
+								<i class="icon-cogs icon-4x"></i>
+								<h4>Modular Components</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam omnis ipsam non natus dolorum officiis veritatis inventore porro id quae iusto a. Voluptatem quia ducimus quisquam perferendis in autem sint!</p>
+							</div>
+							<div class="col-lg-4">
+								<i class="icon-camera-retro icon-4x"></i>
+								<h4>UI & UX</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam omnis ipsam non natus dolorum officiis veritatis inventore porro id quae iusto a. Voluptatem quia ducimus quisquam perferendis in autem sint!</p>
+							</div>
+						</div>
+						<div class="row service-list" style="padding: 20px 0">
+							<div class="col-lg-4">
+								<i class="icon-code icon-4x"></i>
+								<h4>Reusable Code</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ducimus consectetur voluptates aperiam amet ullam nobis labore voluptas iste assumenda illum quibusdam magni modi dolores molestiae animi fugiat voluptatum iusto.</p>
+							</div>
+							<div class="col-lg-4">
+								<i class="icon-cogs icon-4x"></i>
+								<h4>Modular Components</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam omnis ipsam non natus dolorum officiis veritatis inventore porro id quae iusto a. Voluptatem quia ducimus quisquam perferendis in autem sint!</p>
+							</div>
+							<div class="col-lg-4">
+								<i class="icon-camera-retro icon-4x"></i>
+								<h4>UI & UX</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam omnis ipsam non natus dolorum officiis veritatis inventore porro id quae iusto a. Voluptatem quia ducimus quisquam perferendis in autem sint!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</article>
 		<?php 
 			global $query_string;
 			query_posts($query_string . '&orderby=modified');
@@ -67,4 +130,10 @@
 				</section>
 		<?php endforeach;?>
 	<?php endif;?>
+	<article style="background: #fff;">
+		<div class="contact-page">
+			<h1>Contact Me</h1>
+			<p>/</p>
+		</div>
+	</article>
 <?php get_footer(); ?>

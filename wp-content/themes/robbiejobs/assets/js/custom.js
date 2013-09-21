@@ -31,10 +31,9 @@ $(document).ready(function(){
    $('section').css('height', height);
    var padding = (height - 400) / 2;
    $('.portofolio-single').css('padding', padding+'px 0');
+   $('.welcome-hero').css('padding', padding+'px 0');
    $('.portofolio-single').css('width', width);
    $('.project-detail').css('width', width); 
-
-   $('.front-big').css('padding', padding+'px 0');
 
 
 	// Define base height to project-single
