@@ -20,7 +20,7 @@ $(document).ready(function(){
 	var firefox = /firefox/.test(navigator.userAgent.toLowerCase());
 	
 	if (firefox) {
-		alert('little buggy in firefox. fix them soon (:');
+		//alert('little buggy in firefox. fix them soon (:');
 	}
 
     $(window).stellar();
