@@ -8,7 +8,7 @@ Author URI: http://robbyprima.com
 */
 body {
   background: #white;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'ABeeZee', sans-serif;
 }
 img {
   width: 100%;
@@ -43,23 +43,22 @@ footer {
   opacity: 0;
 }
 header {
-  position: fixed;
   z-index: 99999;
-  background: #222;
-  height: 72px;
+  background: #fff;
+  height: 50px;
   padding-bottom: 20px;
-  border-bottom: 2px solid #febf0e;
   width: 100%;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
 }
 header .logo {
-  font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
-  letter-spacing: -4px;
-  font-size: 50px;
+  letter-spacing: -2px;
+  font-size: 34px;
   color: #ddd;
 }
 header .logo a {
-  color: #fff;
+  font-family: "Titillium Web", sans-serif;
+  color: #428bca;
 }
 header .nav {
   padding: 18px 0;
@@ -118,16 +117,19 @@ article .title-separator {
   margin: 0;
 }
 article h1 {
-  color: #222;
+  color: #666;
   text-transform: uppercase;
-  letter-spacing: -3px;
+  letter-spacing: -1px;
   font-weight: 800;
-  font-size: 40px;
+  font-size: 24px;
 }
 article .about-img {
   margin: 10px 0;
 }
 .welcome-hero {
+  z-index: -1;
+  position: relative;
+  top: 0;
   background: #febf0e;
   color: #222;
   height: 100%;
@@ -136,7 +138,7 @@ article .about-img {
   font-family: 'ABeeZee', sans-serif;
   font-size: 18px;
   letter-spacing: -1px;
-  color: #555;
+  color: #222;
 }
 .welcome-hero .front-big p.separator {
   margin: 25px 0;
@@ -148,6 +150,49 @@ article .about-img {
   letter-spacing: -3px;
   font-weight: 800;
   font-size: 40px;
+}
+.hero-title {
+  float: left;
+  text-align: left;
+  text-transform: uppercase;
+  color: #444;
+  letter-spacing: 4px;
+  margin-top: 30px;
+  font-size: 30px;
+}
+.hero-loading {
+  background: url('assets/img/295.gif') no-repeat center center;
+  float: right;
+  width: 32px;
+  height: 32px;
+  margin-top: 30px;
+}
+.project_stage {
+  display: none;
+  padding-top: 20px;
+}
+.project_stage h1 {
+  padding-top: 50px;
+  margin: 10px 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+.project_stage p {
+  color: #ccc;
+  text-align: justify;
+}
+.showcase_wrapper img {
+  max-width: 700px;
+  height: 433px;
+  position: absolute;
+  bottom: 0;
+}
+.project_grid {
+  padding-bottom: 20px;
+}
+.project_grid img {
+  width: 100%;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
 }
 .portofolio-single {
   min-height: 500px;
@@ -253,8 +298,8 @@ a .btn {
 }
 .btn-black {
   margin: 25px 20px;
-  color: #555;
-  border: 1px solid #555;
+  color: #222;
+  border: 1px solid #222;
 }
 footer {
   background: #222;

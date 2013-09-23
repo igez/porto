@@ -1,0 +1,332 @@
+/*
+Theme Name: RobbieJobs
+Theme URI: http://robbyprima.com
+Description: Personal Portofolio Themes
+Version: .1
+Author: Robby Prima
+Author URI: http://robbyprima.com
+*/
+
+body {
+	background: #white;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+img {
+	width: 100%;
+}
+
+h1,h2,h3,h4,h5 {
+	font-family: 'ABeeZee', sans-serif;
+}
+
+ul, li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a, a:hover, a:visited {
+	text-decoration: none;
+}
+
+header,div,footer {
+	-webkit-transition: all 0.4s ease-in-out, width 0, height 0, top 0, left 0;
+	-moz-transition: all 0.4s ease-in-out, width 0, height 0, top 0, left 0;
+	-o-transition: all 0.4s ease-in-out, width 0, height 0, top 0, left 0;
+	transition: all 0.4s ease-in-out, width 0, height 0, top 0, left 0; 
+}
+
+.container {
+}
+
+.stage {
+	opacity: 0;
+}
+
+
+
+header {
+	position: fixed;
+	z-index: 99999;
+	background: #222;
+	height: 72px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #febf0e;
+	width: 100%;
+	.logo {
+		font-family: 'Titillium Web', sans-serif;
+		font-weight: 700;
+		letter-spacing: -4px;
+		font-size: 50px;
+		color: #ddd;
+		a {
+			color: #fff;
+		}
+	}
+
+	.nav {
+		padding: 18px 0;
+		ul {
+			li.mainmenu {
+				display: inline-block;
+				
+
+				&:last-child {
+
+				}
+
+				a {
+					text-transform: uppercase;
+					color:white;
+					display: block;
+					padding: 8px 8px;
+					i {
+
+						position: relative;
+						left: 5px;
+					}
+				}
+			}
+
+			&.submenu {
+				position: absolute;
+				top:72px;
+				
+				display: none;
+				li {
+					a {
+						font-size: 13px;
+						background: #222;
+						width: 200px;
+						padding: 10px 10px;
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+}
+
+.line {
+	height: 1px;
+	width: 100%;
+	padding: 30px 0;
+}
+
+.about {
+	p {
+		font-size: 16px;
+	}
+}
+
+section {
+	overflow: hidden;
+	.project-row {
+		position: relative;
+		width: 12000px;
+		z-index: 9999;
+	}
+}
+
+.works {
+	color: #fff;
+}
+
+article {
+	padding: 125px 0;
+	font-family: 'ABeeZee', sans-serif;
+	text-align: center;
+	.title-separator {
+		padding: 20px 0;
+		margin: 0;
+	}
+	h1 {
+		color: #222;
+		text-transform: uppercase;
+		letter-spacing: -3px;
+		font-weight: 800;
+		font-size: 40px;
+	}
+	.about-img {
+		margin: 10px 0;
+	}
+}
+
+.welcome-hero {
+	background: #febf0e;
+	color: #222;
+	height: 100%;
+	.front-big {
+		p {
+			&.separator {
+				margin:25px 0;
+			}
+			
+			font-family: 'ABeeZee', sans-serif;
+			font-size: 18px;
+			letter-spacing: -1px;
+			color: #555;
+		}
+		h1 {
+			font-family: 'ABeeZee', sans-serif;
+			color: #222;
+			text-transform: uppercase;
+			letter-spacing: -3px;
+			font-weight: 800;
+			font-size: 40px;
+		}
+	}
+}
+
+.portofolio-single {
+	min-height: 500px;
+}
+
+.project-detail {
+	padding: 110px 0;
+	h1 {
+		font-size: 26px;
+		line-height: 10px;
+		font-weight: 800;
+	}
+	.work-detail {
+		h2 {
+			color:#febf0e;
+			font-size: 16px;
+			text-transform: uppercase;
+		}
+		p {
+			text-align: justify;
+		}
+		ul {
+			li {
+				background: url("assets/img/arrow_right.png") no-repeat left;
+				padding-left:20px;
+			}
+				
+		}
+	}
+}
+
+@import "color-scheme.less";
+
+.project-macbook {
+	text-align: center;
+	img {
+	}
+}
+
+.project-name {
+		text-transform: uppercase;
+	}
+
+.project-desc {
+	
+	h2 {
+		font-weight: bold;
+		letter-spacing: -2px;
+		//color: #7E7C79;
+		border-bottom: 1px dotted #7E7C79;
+		padding: 10px 0;
+	}
+
+	p {
+		font-size: 16px;
+		//color: #7E7C79;
+		line-height: 24px;
+		text-align: justify;
+	}
+
+	.link-to-project {
+		padding: 10px 0;
+		i {
+			padding-left:5px;
+		}
+	}
+}
+
+a {
+	.btn {
+		color: #fff;
+	}
+}
+
+.btn-new {
+	margin: 10px;
+	border: 1px solid #fff;
+	color:#fff;
+	&:hover {
+		color: #febf0e;
+		border:1px solid #febf0e;
+	}
+}
+.btn-black {
+	margin:25px 20px;
+	color: #555;
+	border: 1px solid #555;
+}
+
+footer {
+	background: #222;
+	color: white;
+	padding: 10px 0;
+	p {
+		text-transform: uppercase;
+		line-height: 10px;
+		padding: 10px 0;
+		margin: 0;
+		text-align: center;
+	}
+}
+
+.transparent {
+	opacity: 0;
+}
+
+@font-size:2;
+.loader {
+  height:2em;
+  width:2em;
+  border-radius:100%;
+  background:#febf0e;
+  display:block;
+  margin:10em auto;
+  position:absolute;
+  top:50%;
+  left:50%;
+  animation:spin 2s ease infinite;
+  -webkit-animation:spin 2s ease infinite;
+  &:before, &:after{
+    content:'';
+    display:block;
+    position:absolute;
+    height:inherit;
+    width:inherit;
+    background:inherit;
+    border-radius:inherit;
+    animation:spin 2s ease infinite;
+    -webkit-animation:spin 2s ease infinite;
+  }
+  &:before{
+    left:-(@font-size*1.15)*1em;
+  }
+  &:after{
+    left:(@font-size*1.15)*1em;  
+  }
+}
+
+@keyframes spin{
+  0%{
+    top:0;
+    transform:rotate(0deg);
+  }
+  50%{
+    top:-(@font-size*4)*1em;
+    transform:rotate(-180deg);
+  }
+  100%{
+    top:0;
+    transform:rotate(-360deg);
+  }
+}

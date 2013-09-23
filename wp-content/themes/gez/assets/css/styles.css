@@ -1,0 +1,203 @@
+/**
+ *
+ *
+ *
+ *
+ * 
+ */
+body {
+  background: #white;
+  font-family: 'Titillium Web', sans-serif;
+}
+img {
+  width: 100%;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+header,
+div,
+footer {
+  -webkit-transition: all 0.4s ease-in-out, width 0, height 0, top 0, left 0;
+  -moz-transition: all 0.4s ease-in-out, width 0, height 0, top 0, left 0;
+  -o-transition: all 0.4s ease-in-out, width 0, height 0, top 0, left 0;
+  transition: all 0.4s ease-in-out, width 0, height 0, top 0, left 0;
+}
+header {
+  position: fixed;
+  z-index: 99999;
+  background: #222;
+  height: 72px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #febf0e;
+  width: 100%;
+}
+header .logo {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  letter-spacing: -4px;
+  font-size: 50px;
+  color: #ddd;
+}
+header .nav {
+  padding: 18px 0;
+}
+header .nav ul li.mainmenu {
+  display: inline-block;
+}
+header .nav ul li.mainmenu a {
+  text-transform: uppercase;
+  color: white;
+  display: block;
+  padding: 8px 8px;
+}
+header .nav ul li.mainmenu a i {
+  position: relative;
+  left: 5px;
+}
+header .nav ul.submenu {
+  position: absolute;
+  top: 90px;
+  display: none;
+}
+header .nav ul.submenu li a {
+  font-size: 13px;
+  background: #222;
+  width: 200px;
+  padding: 10px 10px;
+  opacity: 1;
+}
+.line {
+  height: 1px;
+  width: 100%;
+  padding: 30px 0;
+}
+.about p {
+  font-size: 16px;
+}
+section .project-row {
+  position: relative;
+  z-index: 9999;
+}
+.portofolio-single {
+  min-height: 500px;
+}
+.project-detail {
+  padding: 110px 0;
+}
+.project-detail h1 {
+  font-size: 26px;
+  line-height: 10px;
+  font-weight: 800;
+}
+.project-detail .work-detail h2 {
+  font-size: 16px;
+  border-bottom: 1px dashed #fff;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.project-detail .work-detail p {
+  text-align: justify;
+}
+.project-detail .work-detail ul li {
+  background: url("../img/arrow_right.png") no-repeat left;
+  padding-left: 20px;
+}
+.bg-1 {
+  position: absolute;
+  width: 100%;
+  height: 640px;
+  z-index: 9;
+  background: url(../img/noisy_grid.png);
+  opacity: .9;
+}
+section.color-0 {
+  background: #febf0e;
+  color: #222;
+  height: 100%;
+}
+section.color-1 {
+  background: url(../img/1809377-queen-villas-620X310.jpg) no-repeat fixed;
+  background-size: cover;
+  color: #fff;
+}
+section.color-2 {
+  background: url(../img/noots.jpg) no-repeat fixed;
+  background-size: cover;
+  color: #fff;
+}
+section.color-3 {
+  background: url(../img/sub.jpg) no-repeat fixed;
+  background-size: cover;
+  color: #fff;
+}
+section.color-4 {
+  background: url(../img/ab.jpg) no-repeat fixed;
+  background-size: cover;
+  color: #fff;
+}
+section.color-5 {
+  background: url(../img/asti.jpg) no-repeat fixed;
+  background-size: cover;
+  color: #fff;
+}
+section.color-6 {
+  background: url(../img/kromtekindo.jpg) no-repeat fixed;
+  background-size: cover;
+  background-position-x: 0px;
+  color: #fff;
+}
+.project-macbook {
+  text-align: center;
+}
+.project-desc h2 {
+  font-weight: bold;
+  letter-spacing: -2px;
+  border-bottom: 1px dotted #7E7C79;
+  padding: 10px 0;
+}
+.project-desc p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+}
+.project-desc .link-to-project {
+  padding: 10px 0;
+}
+.project-desc .link-to-project i {
+  padding-left: 5px;
+}
+a .btn {
+  color: #fff;
+}
+.btn-new {
+  border: 1px solid #fff;
+  color: #fff;
+}
+.btn-new.hover {
+  color: #222;
+  background: #fff;
+}
+footer {
+  background: #222;
+  color: white;
+  padding: 10px 0;
+}
+footer p {
+  text-transform: uppercase;
+  line-height: 10px;
+  padding: 10px 0;
+  margin: 0;
+  text-align: center;
+}
+.transparent {
+  opacity: 0;
+}

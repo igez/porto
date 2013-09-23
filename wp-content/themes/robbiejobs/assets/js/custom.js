@@ -28,6 +28,7 @@ $(document).ready(function(){
    var width = $(window).width();
    var height = $(window).height();
    $('.bg-1').css('height', height);
+   $('.bg-yellow').css('height', height);
    $('section').css('height', height);
    var padding = (height - 400) / 2;
    $('.portofolio-single').css('padding', padding+'px 0');
@@ -59,6 +60,47 @@ $(document).ready(function(){
 	   		$(detail).removeClass('hide');
 	   	});
 	   },800);
+
+   	/**
+   	 * Show project stage onClick
+   	 */
+   	
+   	
+
+   });
+
+   $('a#show_project').each(function() {
+   	$(this).click(function(e) {
+   		e.preventDefault();
+   		var stage 	= $('.project_stage'),
+   			 id 		= $(this).attr('data-post');
+
+   		
+   		$.ajax({
+				type			: 'GET',
+				data 			: {post: id},
+				dataType		: 'html',
+				url 			: '/wp-content/themes/robbiejobs/ajax_post.php',
+				beforeSend 	: function() {
+					$('.hero-loading').removeClass('hide');
+					stage.slideUp();
+				},
+				success 		: function(data) {
+					var target = $('#ajax_load_post');
+					target.html(data);
+					$('.hero-loading').addClass('hide')
+					stage.slideDown(function() {
+	   				$(window).scrollTo($(this),200);
+	   			});
+					
+				},
+				error 		: function(jqXHR, textStatus, errorThrown) {
+					console.log(jqXHR);
+				}
+			});
+ 
+   	})
+		console.log(this);
    });
 
    $('a#back').click(function(e) {
@@ -137,4 +179,8 @@ function idleScroll (delay, value) {
 		$(window).scrollTop(value);
 	},delay);
 	return false;
+}
+
+function load_post(id) {
+	
 }

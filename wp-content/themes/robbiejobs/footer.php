@@ -1,6 +1,6 @@
 	<footer>
 		<div class="container">
-			<p>&copy 2013 RobbyPrima.com. All Rights Reserved.</p>
+			<p>&copy 2013 Personal Portofolio of Robby Prima. All Rights Reserved.</p>
 		</div>
 	</footer>
 	</div>

@@ -24,7 +24,7 @@
 				</div>
 				<div class="col-lg-8">
 					<div class="row">
-						<div class="nav">
+						<div class="nav" style="display:none;">
 							<ul class="nav-home">
 								<li class="mainmenu">
 									<a href="#">Menu <i class="icon-angle-down"></i></a>

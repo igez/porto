@@ -1,5 +1,7 @@
 <?php
 
+add_theme_support( 'post-thumbnails' ); 
+
 function the_slug() {
     $post_data = get_post($post->ID, ARRAY_A);
     $slug = $post_data['post_name'];
