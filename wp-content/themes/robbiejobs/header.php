@@ -19,24 +19,16 @@
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 					<div class="logo"><a href="/">ROBBYPRIMA.</a></div>
 				</div>
-				<div class="col-lg-8">
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 					<div class="row">
-						<div class="nav" style="display:none;">
+						<div class="nav pull-right">
 							<ul class="nav-home">
-								<li class="mainmenu">
-									<a href="#">Menu <i class="icon-angle-down"></i></a>
-									<ul class="submenu">
-										<li><a href="#">About.</a></li>
-										<li><a href="#">What I Do.</a></li>
-										<li><a href="#">Contact.</a></li>
-									</ul>
-								</li>
-								<li class="mainmenu">
-									<a href="#">Works <i class="icon-angle-down"></i></a>
-									<?php wp_nav_menu( array('menu' => 'nav-works','menu_class'  => 'submenu')); ?>
+								<li class="mainmenu"><a href="#">About.</a></li>
+								<li class="mainmenu"><a href="#">Works.</a></li>
+								<li class="mainmenu"><a href="#">Contact.</a></li>
 								</li>
 							</ul>
 						</div>

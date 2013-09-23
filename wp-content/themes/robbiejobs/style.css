@@ -58,23 +58,30 @@ header .logo {
 }
 header .logo a {
   font-family: "Titillium Web", sans-serif;
-  color: #428bca;
+  color: #666;
+}
+header .logo a:hover {
+  color: #feca28;
 }
 header .nav {
-  padding: 18px 0;
+  padding: 8px 0;
 }
 header .nav ul li.mainmenu {
   display: inline-block;
 }
 header .nav ul li.mainmenu a {
   text-transform: uppercase;
-  color: white;
+  color: #666;
   display: block;
-  padding: 8px 8px;
+  padding: 10px 8px;
 }
 header .nav ul li.mainmenu a i {
   position: relative;
   left: 5px;
+}
+header .nav ul li.mainmenu a:hover {
+  color: #feca28;
+  border-bottom: 2px solid #feca28;
 }
 header .nav ul.submenu {
   position: absolute;
