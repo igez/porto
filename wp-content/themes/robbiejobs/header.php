@@ -19,13 +19,13 @@
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<div class="col-lg-9 col-md-4 col-sm-4 col-xs-12">
 					<div class="logo"><a href="/">ROBBYPRIMA.</a></div>
 				</div>
-				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+				<div class="col-lg-3 col-md-8 col-sm-8 col-xs-12">
 					<div class="row">
-						<div class="nav pull-right">
-							<ul class="nav-home">
+						<div class="nav">
+							<ul class="nav-home text-right">
 								<li class="mainmenu"><a href="#">About.</a></li>
 								<li class="mainmenu"><a href="#">Works.</a></li>
 								<li class="mainmenu"><a href="#">Contact.</a></li>

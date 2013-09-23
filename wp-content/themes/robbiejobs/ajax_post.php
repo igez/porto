@@ -7,6 +7,7 @@ require_once('../../../wp-load.php');
 $post = (isset($_GET['post'])) ? $_GET['post'] : 0;
 
 $q = get_post($post);
+sleep(2);
 if ($q) {
 	echo $q->post_content;
 }

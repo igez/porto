@@ -103,9 +103,6 @@ header .nav ul.submenu li a {
 .about p {
   font-size: 16px;
 }
-section {
-  overflow: hidden;
-}
 section .project-row {
   position: relative;
   width: 12000px;
@@ -158,6 +155,10 @@ article .about-img {
   font-weight: 800;
   font-size: 40px;
 }
+.projects {
+  padding: 0 0 15px 0;
+  background: #ddd;
+}
 .hero-title {
   float: left;
   text-align: left;
@@ -195,6 +196,7 @@ article .about-img {
   bottom: 0;
 }
 .project_grid {
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 .project_grid img {
